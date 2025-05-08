@@ -26,20 +26,20 @@
 
 **Example: sum the range of numbers from 1 to 10**
 
-iteration 1 :   
+- iteration 1 :   
 00110001 0000000 0000000  
 00110001 0000001 0000001  
 ...    --> not interested in following that i Guess !  
 
-iteration 2 : translation of  each line of 0s and 1s to English scentence instruction:  
- 
+- iteration 2 : translation of  each line of 0s and 1s to English scentence instruction:  
+
 1- Store the number 0 in memeory in location 0.  
 2- store the number 1 in memory in location 1.  
 3- store the value of memory location 1 in memory location 2.  
 4- subtract number 11 from the value in memory location 2.  
 ....  
 
-iteration 3 : introducing names that are more readable and resonate about.
+- iteration 3 : introducing names that are more readable and resonate about.
 
 ``` 
     Set "total" to 0.
@@ -54,7 +54,7 @@ iteration 3 : introducing names that are more readable and resonate about.
     Output "total"
 ```
 
-if we need to translate this program to javascript we can write : 
+- iteration 4 : if we need to translate this program to javascript we can write : 
 
 ```
 let total=0, count=1;
@@ -68,3 +68,20 @@ console.log(total)
 
 // -> 55
 ```
+
+- iteration 5 : when we get to know functions and modules in javascript we can creat `range()` function and `sum()` function.  
+Then our program will look like : 
+```
+console.log(sum(range(0,10)))
+
+// -> 55
+```
+
+- we get to a conclusion that a good programming language enables people to talk about the actions that the computer has to perfrom in a higher level. This is done by omitting details, providing building blocks eg: `while` and `console.log()`. Also by allowing programmer to build his own blocks like `sum()` and `range()`.
+
+
+### What is JavaScript
+
+- It was introduced in 1995 to add programs to wbe pages in the NetScape Navigator browser. 
+
+- 
