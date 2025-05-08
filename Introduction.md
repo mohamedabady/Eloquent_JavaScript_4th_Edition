@@ -26,12 +26,13 @@
 
 **Example: sum the range of numbers from 1 to 10**
 
-iteration 1 : 
+iteration 1 :   
 00110001 0000000 0000000  
 00110001 0000001 0000001  
 ...    --> not interested in following that i Guess !  
 
-iteration 2 : translation of  each line of 0s and 1s to English scentence instruction:   
+iteration 2 : translation of  each line of 0s and 1s to English scentence instruction:  
+ 
 1- Store the number 0 in memeory in location 0.  
 2- store the number 1 in memory in location 1.  
 3- store the value of memory location 1 in memory location 2.  
