@@ -20,23 +20,23 @@
 
 ### Why Language Matters
 
-- The first machine to be called a computer was built on data being fed to the machine a 0 and 1 which means false and true. These was the punch cards. Hence, the written representation of a sequence of instructions was a large array of 0s and 1s. 
+- The first machine to be called a computer was built on data being fed to the machine as 0 and 1 which means false and true. These were the punch cards. Hence, the written representation of a sequence of instructions was a large array of 0s and 1s. 
 
 - With the advancement of technology and building compilers, we were able to make representation a bit more friendly to human logic. 
 
 **Example: sum the range of numbers from 1 to 10**
 
 iteration 1 : 
-00110001 0000000 0000000 
-00110001 0000001 0000001
-...    --> not interested in following that i Guess !
+00110001 0000000 0000000  
+00110001 0000001 0000001  
+...    --> not interested in following that i Guess !  
 
-iteration 2 : translation of  each line of 0s and 1s to English scentence instruction: 
-1- Store the number 0 in memeory in location 0.
-2- store the number 1 in memory in location 1.
-3- store the value of memory location 1 in memory location 2.
-4- subtract number 11 from the value in memory location 2
-....
+iteration 2 : translation of  each line of 0s and 1s to English scentence instruction:   
+1- Store the number 0 in memeory in location 0.  
+2- store the number 1 in memory in location 1.  
+3- store the value of memory location 1 in memory location 2.  
+4- subtract number 11 from the value in memory location 2.  
+....  
 
 iteration 3 : introducing names that are more readable and resonate about.
 
